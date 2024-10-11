@@ -84,6 +84,6 @@ def main(pagina):
     pagina.add(texto)
     pagina.add(botao_iniciar)
 
-ft.app(target=main, view=WEB_BROWSER, port=8550)
+ft.app(target=main, view=WEB_BROWSER, port=5500)
 
 # deploy
