@@ -16,6 +16,7 @@
 
 # produto["quantidade"]
 
+from flask import app
 import flet as ft
 
 def main(pagina):
@@ -84,6 +85,6 @@ def main(pagina):
     pagina.add(texto)
     pagina.add(botao_iniciar)
 
-ft.app(target=main, view=ft.WEB_BROWSER, port=8550)
+ft.app(target=main, view=app.WEB_BROWSER)
 
 # deploy
