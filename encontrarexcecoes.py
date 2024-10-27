@@ -3,7 +3,7 @@
 
 import sys
 
-item = 0         # testar também com 22 e 'python'
+item = 0         
 
 try:
     divisao = 1/item
